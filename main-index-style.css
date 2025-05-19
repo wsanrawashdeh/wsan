@@ -1,0 +1,179 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e7ccdc;
+  color: #333;
+  margin: 0;
+  line-height: 1.6;
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+
+header {
+  background-color: #842551;
+  color: #a07792;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  flex: 0 0 auto;
+  top: 0;
+  width: 100%;
+  font-size: 24px;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 300;
+  border-bottom: 2px solid #a82a65;
+}
+
+header .container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+footer {
+  background-color: #e7ccdc;
+  color: #99496d;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 14px;
+  flex: 0 0 auto;
+  bottom: 0;
+  width: 100%;
+  z-index: 1000;
+  border-top: 2px solid #b51d64;
+}
+
+footer .container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+
+main {
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 0px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content-container {
+  display: flex;
+  flex: 1;
+  min-height: 400px;
+}
+
+.sidebar {
+  width: 100px;
+  background-color: #f0823d25;
+  padding: 20px;
+  color: white;
+  height: auto;
+  border-right: 2px solid #b51d64;
+
+}
+
+.sidebar a {
+  display: block;
+  color: #b51d64;
+  text-decoration: none;
+  margin: 10px 0;
+}
+
+.sidebar a:hover {
+  text-decoration: wavy;
+  background-color: #ee893c52;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+
+/* About Me Section CSS */
+p {
+  padding-top: 20px;
+  padding-inline: 20px;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.highlight-text {
+  background-color: palevioletred;
+}
+
+.aboutMe h2 {
+  text-align: center;
+}
+
+/* My City Section CSS */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #e7ccdc;
+}
+
+th {
+  background-color: #e7ccdc;
+  color: #333;
+}
+
+td,
+th {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 700px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.gallery img {
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px #0000001a;
+}
+
+/* LandMark Section CSS */
+h1,
+h2 {
+  color: #a03064;
+}
+
+
+.video-section iframe {
+  width: 100%;
+  max-width: 100%;
+  height: 315px;
+  border-radius: 8px;
+}
+
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
